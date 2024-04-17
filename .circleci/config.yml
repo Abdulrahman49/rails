@@ -4,7 +4,6 @@ jobs:
       - checkout
       - run: echo "This is a build step"    # similar to "script" in GitLab
 
-
   test:
     steps:
       - checkout
